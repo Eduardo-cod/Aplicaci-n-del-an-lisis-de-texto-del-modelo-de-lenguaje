@@ -1,0 +1,41 @@
+# Secretos y configuracion local
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Python: bytecode y cachés
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+
+# Archivos generados por builds e instalaciones
+build/
+dist/
+*.egg-info/
+.uv/
+
+# Cobertura y reportes de pruebas
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Configuración local de editores
+.idea/
+
+# Archivos temporales y del sistema operativo
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
